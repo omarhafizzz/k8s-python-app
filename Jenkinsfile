@@ -18,7 +18,7 @@ pipeline {
             steps {
                 withCredentials([usernamePassword(credentialsId: 'dockerhub', passwordVariable: 'DOCKER_PASS', usernameVariable: 'DOCKER_USER')]) {
                     sh 'echo $DOCKER_PASS | docker login -u $DOCKER_USER --password-stdin'
-                    sh 'docker push YOUR_DOCKER_USERNAME/k8s-python-app:latest'
+                    sh 'docker push omarhafiz/k8s-python-app:latest'
                 }
             }
         }
