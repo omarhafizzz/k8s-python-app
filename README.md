@@ -1,3 +1,6 @@
+![Jenkins](https://img.shields.io/badge/Jenkins_CI-Passing-success?style=for-the-badge&logo=jenkins)
+![Docker](https://img.shields.io/badge/Docker-Built-blue?style=for-the-badge&logo=docker)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Deployed-326CE5?style=for-the-badge&logo=kubernetes)
 # Multi-Tier Microservices CI/CD Pipeline on Kubernetes 🚀
 
 ## 📌 Project Overview
